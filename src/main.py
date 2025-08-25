@@ -29,6 +29,23 @@ def get_status(system, client):
 
 
 def main():
+    """
+    Runs the main loop for the Rock-Paper-Scissors game.
+
+    Continuously prompts the user to select Rock, Paper, or Scissors, or to exit the game.
+    Handles invalid input and displays appropriate messages.
+    After a valid selection, generates the system's choice and displays the result.
+    Exits gracefully when the user chooses to exit.
+
+    User Input:
+        - 1: Rock
+        - 2: Paper
+        - 3: Scissors
+        - -1: Exit
+
+    Returns:
+        None
+    """
     while True:
         while True:
             try:
